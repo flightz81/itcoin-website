@@ -19,14 +19,22 @@ p {
   color: #e50914;
 }
 .button {
-  background: #e50914;
-  color: white;
-  padding: 15px 30px;
-  margin-top: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
+  background: #e50914;       /* Red background */
+  color: black;              /* Black text */
+  padding: 15px 30px;        /* Button size */
+  margin: 15px 10px;         /* Space around buttons */
+  text-decoration: none;     /* Remove underline */
+  font-weight: bold;         /* Bold text */
+  display: inline-block;     /* Make it a block */
+  border-radius: 6px;        /* Rounded corners */
+  font-size: 16px;           /* Text size */
+  transition: background-color 0.3s ease;  /* Smooth hover */
 }
+
+.button:hover {
+  background-color: #b2060f; /* Darker red on hover */
+}
+
 .float-image {
   width: 300px;
   animation: float 3s ease-in-out infinite;
